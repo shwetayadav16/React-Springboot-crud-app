@@ -1,19 +1,13 @@
 import React, { Component } from 'react';
 
 class FooterComponent extends Component {
-    constructor(props){
-        super(props)
-        this.state={
-
-        }
-    }
     render() {
         return (
-            <div>
-                <footer className="footer">
-                    <span className="tect-muted">All Right Reserved By 2025 @Shweta</span>
-                </footer>
-            </div>
+            <footer className="footer bg-dark text-white text-center py-3 fixed-bottom">
+                <div className="container">
+                    <span>All Rights Reserved © 2025 @Shweta</span>
+                </div>
+            </footer>
         );
     }
 }
